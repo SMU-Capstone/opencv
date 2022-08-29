@@ -2,8 +2,8 @@
 - 가로쓰레기통 알리미 앱의 OpenCV 파트 레포입니다.
 - 본 프로젝트는 YOLO 모델을 base model로 사용합니다.
 - 라즈베리파이 환경에서 Object detection과 image classification을 합니다.
-- 플라스틱, 종이, 병, 캔, 고철, 스티로폼, 비닐 등 15가지 재활용 쓰레기 정보를 예측합니다.
-
+- 고철(캔), 병, 일반쓰레기(종이, 비닐), 플라스틱(페트병) 4가지 재활용 쓰레기 정보를 예측합니다.
+ 
 ## 참가자
 |역할|학과|이름|
 |---------|------------|-------|
@@ -15,9 +15,9 @@
 
 ## Architecture
 - 언어: Python
-- 프레임워크: TensorFlow, Keras
-- 개발 환경: Windows Server 2022
-- 배포 서버 환경: Amazon EC2 (Ubuntu 20.04.4 LTS)
+- 프레임워크: Pytorch
+- 개발 환경: Windows 10 Desktop
+- 배포 서버 환경: Raspberry Pi OS (64-bit)
 
 ## Usage
 ### 데이터 전처리
