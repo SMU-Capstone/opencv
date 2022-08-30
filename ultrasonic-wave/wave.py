@@ -24,7 +24,7 @@ try:
 			# test 844
 			id = 844
 			res = requests.get(url+'/trashcan-id/' + str(id))
-			if res.status_code == 200 and len(res.text) > 0:
+			if res.status_code == 200 and len(res.text) == 0:
 				params = {"trashcanId": id}
 				requests.post(url, json=params)
 
